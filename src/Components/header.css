@@ -1,0 +1,27 @@
+.header-Img {
+  object-fit: cover;
+  max-width: 100%;
+  overflow: hidden;
+  height: 70vh;
+}
+
+.header-content {
+  max-width: 400px;
+  position: absolute;
+  left: 110px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header-content h1 {
+  margin-bottom: 18px;
+  font-size: 39px;
+  color: rgba(251, 251, 251, 0.834);
+  text-shadow: 3px 3px 10px black;
+}
+
+.header-content p {
+  color: rgba(251, 251, 251, 0.834);
+  text-shadow: 3px 3px 10px black;
+  font-weight: 55px;
+}
